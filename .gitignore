@@ -1,0 +1,27 @@
+# Node.js/Svelte
+node_modules/
+.svelte-kit/
+build/
+dist/
+*.log
+
+# Python/Flask
+__pycache__/
+*.pyc
+.env
+venv/
+.pytest_cache/
+
+# Supabase/Database
+*.db
+supabase/
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+
+# Dependencies
+package-lock.json
+yarn.lock
+pipenv/
